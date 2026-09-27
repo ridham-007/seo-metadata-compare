@@ -20,4 +20,4 @@ npm test
 npm run build
 ```
 
-GitHub Actions runs the same checks on pushes to `ci-test` and can be started manually.
+GitHub Actions runs the checks on pushes to `ci-test`, then deploys successful builds to GitHub Pages. It can also be started manually.
